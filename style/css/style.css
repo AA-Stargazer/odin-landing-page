@@ -67,7 +67,7 @@ body {
 	width: 3cm;
 }
 
-.header ul a {
+a {
   	font-family: "Tahoma", Helvetica, sans-serif;
 	color: #EFEFEF;
 	font-size: 3.6mm;
@@ -140,7 +140,8 @@ body {
 }
 
 .one div button { /* when not writing the div, it has same specifity and one written in buttom applied as appears after */
-	border-color: #EFEFEF;
+	border-color: rgb(239, 239, 239, 0.4);
+	color: #1e1c19;
 }
 
 /* two */
@@ -258,7 +259,7 @@ body {
 	align-items: center;
 	gap: 2cm;
 	padding: 5vw;
-	background-color: rgb(186, 220, 208, 0.6);
+	background-color: rgb(186, 220, 208, 0.7);
 	/*box-shadow: 0 2px 3px 1px black;*/
 }
 
@@ -289,6 +290,13 @@ body {
 .one button a {
 	margin: 0;
 	padding: 0;
+}
+
+button:hover {
+	border-width: 0.15cm;
+	font-size: 0.6cm;
+	margin: -0.05cm;
+	transition-duration: 50ms;
 }
 
 /* footer */
